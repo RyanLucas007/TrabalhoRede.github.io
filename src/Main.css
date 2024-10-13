@@ -1,0 +1,253 @@
+/* Estilo para a logo e botões */
+body{
+
+background-image: url(https://img.freepik.com/fotos-premium/linhas-brancas-abstratas-em-um-fundo-cinzento-com-pontos-brancos-formam-um-padrao-geometrico_1174990-180088.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+.PrimeiraLogo {
+    background-color: #aaaaaa75;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Alinhado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.LogoImagem {
+    cursor: pointer;
+}
+
+.LogoImagem:hover{
+    scale: 1.2;
+}
+
+.Button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.ButtonText {
+    font-size: 23px;
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.ButtonText:hover {
+    color: #007bff;
+}
+
+.WppClass {
+    cursor: pointer;
+}
+
+.WppClass:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+/* Estilo para a linha cinza e preta */
+.GrayLine {
+    background-color: #aaaaaa75;
+    height: 2px;
+    margin: 20px 0;
+}
+
+.BlackLine {
+    background-color: #343a40;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.BlackLineAlinhamento {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Button2 {
+    background-color: rgba(70, 70, 255, 0.959);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Button2:hover {
+    background-color:rgba(45, 45, 163, 0.959);
+}
+
+/* Estilo da seção principal */
+.Div2 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    border: 2px solid rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 70PX rgb(170, 171, 173);
+    background-color: white;
+}
+
+.Elements {
+    text-align: center;
+    max-width: 600px;
+}
+
+.Giga {
+    font-size: 40px;
+    color: #007bff;
+    text-shadow: 0 0 90px rgba(70, 70, 255, 0.959);
+}
+
+.Garantir {
+    background-color: rgba(70, 70, 255, 0.959);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.Garantir:hover {
+    background-color: rgba(45, 45, 163, 0.959);
+}
+
+/* Estilo para o texto e botões menores */
+.MiniTexto {
+    background-color: #aaaaaa75;
+    padding: 50px 0;
+}
+
+.MiniTextoElementos {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.OMundo {
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.959);
+}
+
+.Planos {
+    background-color: rgba(70, 70, 255, 0.959);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#CorLazarenta{
+    color: white;
+}
+
+#partirde{
+    padding: 10px 20px;
+}
+
+.Planos img {
+    margin-left: 10px;
+}
+
+.Planos:hover {
+    background-color: rgba(45, 45, 163, 0.959);
+}
+
+/* Seção de parcerias de streaming */
+.StreamingSection {
+    background-color: #dbdbdb75;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.StreamingSection h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.StreamingSection p, .StreamingSection ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.StreamingSection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.StreamingSection ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.StreamingSection .Planos {
+    background-color: rgba(70, 70, 255, 0.959);
+    color: #aaaaaa75;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.StreamingSection .Planos:hover {
+    background-color: rgba(45, 45, 163, 0.959);
+}
+
+/* Estilo para os blocos */
+.Blocos {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.BlocosElementos img {
+    width: 150px;
+    height: 150px;
+}
+
+.PlanosBackground{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ParceriaButton{
+    background: none;
+    align-items: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px  #dbdbdb75;
+}
+
+.ParceriaButton:hover{
+    scale: 1.2;
+}
+
+#ingual{
+    height: 261px;
+}

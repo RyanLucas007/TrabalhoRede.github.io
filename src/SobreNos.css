@@ -1,0 +1,103 @@
+.ListaBackground{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .Tabela{
+    border: 1;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    
+} */
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(177, 177, 177);
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(177, 177, 177);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+#teste{
+    width: 1000px;
+    right: 270px;
+}
+header{
+    background-color: dodgerblue;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+#SaibaMais{
+    border: 7px solid dodgerblue;
+    border-radius: 30px;
+    width: 30%;
+    box-shadow: 0 0 20px rgb(40, 4, 241);
+    text-shadow: 0 0 70px rgb(0, 62, 124);
+    font-style: oblique;
+    font-size: 17px;
+   
+}
+
+#title{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+#mapamental{
+    background-color: rgb(48, 111, 230);
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
